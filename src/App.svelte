@@ -67,5 +67,22 @@
         margin: auto;
         margin-bottom: 130px;
     }
+
+.chart-wrapper {
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 130px;
+    min-height: 400px; /* Add this line */
+    position: relative; /* Add this line */
+    overflow: visible; /* Add this line */
+}
+
+.flourish-embed {
+    width: 100%;
+    height: 100%;
+    position: absolute; /* Add this block */
+    top: 0;
+    left: 0;
+}
         
 </style>
