@@ -1,13 +1,13 @@
 <!-- Script JS -->
 <script>
   // Load Flourish embed script
-  /* import { onMount } from 'svelte';
+  import { onMount } from 'svelte';
   onMount(() => {
     const script = document.createElement('script');
     script.src = 'https://public.flourish.studio/resources/embed.js';
     script.async = true;
     document.head.appendChild(script);
-  }); */
+  }); 
 </script>
 
 <main>
